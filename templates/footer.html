@@ -1,0 +1,23 @@
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#img-title" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#c-us" class="nav-link px-2 text-body-secondary">Queries</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">&copy; 2024 Sai Nivedh, Inc</p>
+  </footer>
+</div>
+
+<script>
+  // JavaScript for smooth scrolling
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>

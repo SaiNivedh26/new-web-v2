@@ -1,26 +1,8 @@
-<nav class="py-2 bg-body-tertiary border-bottom">
-  <div class="container d-flex flex-wrap">
-    <ul class="nav me-auto">
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">About</a></li>
-    </ul>
-    <ul class="nav">
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Login</a></li>
-      <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Sign up</a></li>
-    </ul>
+<nav class="navbar shadow-sm fixed-top bg-white">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="data:image/jpeg;base64,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" alt="" width="30" height="24" class="d-inline-block align-text-top"> Sai Nivedh
+    </a>
   </div>
 </nav>
-<header class="py-3 mb-4 border-bottom">
-  <div class="container d-flex flex-wrap justify-content-center">
-    <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto link-body-emphasis text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">Dashboard</span>
-    </a>
-    <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-      <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-    </form>
-  </div>
-</header>
+<div style="height:56px;"></div>
